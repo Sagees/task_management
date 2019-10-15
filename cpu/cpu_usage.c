@@ -11,8 +11,15 @@
 //int user, nice, sys, idle, iowait, irq, softirq, steal, guest, gnice = 0;
 
 int mode, cores;
-time_t t; struct tm tm; // to store current time
 
+static void cur_time(void) {
+	/* represent current time */
+	time_t t = time(NULL);
+	struct tm tm = *localtime(&t);
+	printf("%d-%d-%d %d:%d:%d\n",
+ 		tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday,
+ 		tm.tm_hour, tm.tm_min, tm.tm_sec);
+}
 
 float* cpu_usage_per(void) {
 	int i=0; float total, total_idle;
@@ -56,13 +63,7 @@ int main() {
 	while (--cnt) {
 		usleep(500000);
 		float *cur = cpu_usage_per();
-
-		/* represent current time */
-		t = time(NULL);
-		tm = *localtime(&t);
-		printf("%d-%d-%d %d:%d:%d\n",
-     		tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday,
-     		tm.tm_hour, tm.tm_min, tm.tm_sec);
+		cur_time();
 		for (j=0; j<2*cores; j++) {
 			diff_i = cur[j] - prev[j];
 			diff_t = cur[j+1] - prev[j+1]; 
