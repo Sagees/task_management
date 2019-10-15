@@ -2,17 +2,21 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <math.h>
 #include <unistd.h>
-#define CPUSTAT "/proc/stat"
+#include <time.h>
+#define PROCDIR "/proc"
+#define CPUSTAT PROCDIR "/stat"
 
 //int user, nice, sys, idle, iowait, irq, softirq, steal, guest, gnice = 0;
 
 int mode, cores;
+time_t t; struct tm tm; // to store current time
 
 
 float* cpu_usage_per(void) {
 	int i=0; float total, total_idle;
-	float *res = (float*) malloc(sizeof(float)*32);
+	float *res = (float*) malloc(sizeof(float)*32); // when to free?
 	FILE *fp = fopen(CPUSTAT, "r");
 	if (fp == NULL) return res; // file not exists
 	cores = 0;
@@ -46,29 +50,42 @@ float* cpu_usage_per(void) {
 int main() {
 	int cnt = 20; int j;
 	float diff_i, diff_t, per; float * prev;
-	FILE *pFile = fopen("cpulog.txt", "w");
+
+	//FILE *pFile = fopen("cpulog.txt", "w");
 	if (cnt >0) prev = cpu_usage_per();
 	while (--cnt) {
-		sleep(1);
+		usleep(500000);
 		float *cur = cpu_usage_per();
+
+		/* represent current time */
+		t = time(NULL);
+		tm = *localtime(&t);
+		printf("%d-%d-%d %d:%d:%d\n",
+     		tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday,
+     		tm.tm_hour, tm.tm_min, tm.tm_sec);
 		for (j=0; j<2*cores; j++) {
 			diff_i = cur[j] - prev[j];
 			diff_t = cur[j+1] - prev[j+1]; 
 			// printf("i : %f t: %f \n", prev[j], prev[j+1]);
-			per = ((diff_t-diff_i)/diff_t)*100;
-			 ++j;
+			per = ((diff_t-diff_i)/diff_t)*100; ++j;
 
-			if (j/2 == 0)
-			{
-				fprintf(pFile,"MAIN CPU : %.4f \n", per);
-			}
+			if (isnan(per)) per = 0.0;
 			else {
-				fprintf(pFile, "CPU %d : %.4f \n",(j-1)/2,per);
+				if (j/2 == 0)
+				{
+					//fprintf(pFile,"MAIN CPU : %.4f \n", per);
+					printf("MAIN CPU : %.4f \t", per);
+				}
+				else {
+					//fprintf(pFile, "CPU %d : %.4f \n",(j-1)/2,per);
+					printf("CPU %d : %.4f \t",(j-1)/2,per);
+				}
 			}
 		}
-		fprintf(pFile,"\n");
+		//fprintf(pFile,"\n");
+		printf("\n\n");
 		prev = cur;
 	}
-	fclose(pFile);
+	//fclose(pFile);
 	return 0;
 }
