@@ -73,6 +73,7 @@ int main(int argc, char *argv[]) {
 		printf("Press following number what to represent\n1. CPU USAGE / core\n2. THREADS / core\n");
 		printf("----------------------------------------------\n\ninput : ");
 		scanf("%d",&flag);
+		printf("\n");
 		if (flag == 1) {
 			int cnt = 20; int j;
 			float diff_i, diff_t, per; float * prev;
@@ -111,7 +112,8 @@ int main(int argc, char *argv[]) {
 		else if (flag == 2) {
 			while (1) {
 				usleep(500000);
-				system("CORENUM=0; ps -eT -o spid,psr,stat,cmd,time | grep -E  \"^[[:space:]][[:digit:]]+[[:space:]][[:digit:]]+${CORENUM}\"");
+				system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd,time | grep -E -c  \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
+				system("CORE=1; ps -eT -o pid,spid,psr,stat,cmd,time | grep -E -c  \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
 				printf("\n");
 			}
 		}
