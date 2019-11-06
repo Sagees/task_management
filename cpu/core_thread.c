@@ -60,7 +60,6 @@ int main(int argc, char *argv[]) {
 		which input would be better to change in integer format? */
 	if (argc >1) { // specific pid input, threads per pid
 		int pid = atoi(argv[1]);
-		printf("pid = %d\n", pid);
 		system("ps aux | grep -E  \"^[[:space:]]+${pid}\""); 
 	}
 
@@ -112,8 +111,8 @@ int main(int argc, char *argv[]) {
 		else if (flag == 2) {
 			while (1) {
 				usleep(500000);
-				system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd,time | grep -E -c  \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
-				system("CORE=1; ps -eT -o pid,spid,psr,stat,cmd,time | grep -E -c  \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
+				system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E -c \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
+				system("CORE=1; ps -eT -o pid,spid,psr,stat,cmd | grep -E  \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
 				printf("\n");
 			}
 		}
