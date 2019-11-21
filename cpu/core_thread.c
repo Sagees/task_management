@@ -59,8 +59,17 @@ int main(int argc, char *argv[]) {
 	/* PID INPUT 
 		which input would be better to change in integer format? */
 	if (argc >1) { // specific pid input, threads per pid
-		int pid = atoi(argv[1]);
-		system("ps aux | grep -E  \"^[[:space:]]+${pid}\""); 
+		char pid[10];
+		sprintf(pid, "%d", atoi(argv[1]));
+		//usleep(2222);
+		//int ret = system("ps aux | grep -E \"^[[:space:][:alpha:]]+[[:space:]]+$@\""); 
+		//printf("pid : %d %d \n", PID,ret);
+		char * exec = malloc(sizeof(char)*200);
+		strcpy(exec, "ps -eL -o user,pid,lwp,nlwp,stat,cmd | grep -E -w \"^[[:space:][:alpha:]]+[[:space:]]+");
+		strcat(exec, pid); strcat(exec, "+[[:space:][:digit:][:space:][:digit:][:space:]]+R");
+		strcat(exec, "\"");
+		system(exec);
+		free(exec);
 	}
 
 
