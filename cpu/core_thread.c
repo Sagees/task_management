@@ -64,12 +64,14 @@ int main(int argc, char *argv[]) {
 		//usleep(2222);
 		//int ret = system("ps aux | grep -E \"^[[:space:][:alpha:]]+[[:space:]]+$@\""); 
 		//printf("pid : %d %d \n", PID,ret);
-		char * exec = malloc(sizeof(char)*200);
-		strcpy(exec, "ps -eL -o user,pid,lwp,nlwp,stat,cmd | grep -E -w \"^[[:space:][:alpha:]]+[[:space:]]+");
-		strcat(exec, pid); strcat(exec, "+[[:space:][:digit:][:space:][:digit:][:space:]]+R");
-		strcat(exec, "\"");
-		system(exec);
-		free(exec);
+		while (1) {
+			char * exec = malloc(sizeof(char)*200);
+			strcpy(exec, "ps -eL -o user,pid,lwp,nlwp,stat,cmd | grep -E -w \"^[[:space:][:alpha:]]+[[:space:]]+");
+			strcat(exec, pid); strcat(exec, "+[[:space:][:digit:][:space:][:digit:][:space:]]+R");
+			strcat(exec, "\"");
+			system(exec);
+			free(exec);
+		}
 	}
 
 
@@ -120,8 +122,9 @@ int main(int argc, char *argv[]) {
 		else if (flag == 2) {
 			while (1) {
 				usleep(500000);
-				system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
-				//system("CORE=1; ps -eT -o pid,spid,psr,stat,cmd | grep -E -c \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
+				// core per iteration
+				//system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
+				system("CORE=0; ps -eT -o pid,tid,psr,stat,cmd | grep -E -c \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
 				printf("\n");
 			}
 		}
