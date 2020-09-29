@@ -124,7 +124,7 @@ int main(int argc, char *argv[]) {
 				usleep(500000);
 				// core per iteration
 				//system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
-				system("CORE=0; ps -eT -o pid,tid,psr,stat,cmd | grep -E -c \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
+				system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E -c \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
 				printf("\n");
 			}
 		}
