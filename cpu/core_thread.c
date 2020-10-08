@@ -92,6 +92,7 @@ int main(int argc, char *argv[]) {
 			while (--cnt) {
 				usleep(500000);
 				float *cur = cpu_usage_per();
+				char core_n[10];
 				cur_time();
 				for (j=0; j<2*cores; j++) {
 					diff_i = cur[j] - prev[j];
@@ -101,34 +102,44 @@ int main(int argc, char *argv[]) {
 
 					if (isnan(per)) per = 0.0;
 					else {/* print cpu usage per core */
+						char cpu_usage[30], percent[10]; sprintf(percent,"%.4f",per);
+						//char core_n[10];
 						if (j/2 == 0)
 						{
-							fprintf(pFile,"MAIN CPU : %.4f \n", per);
-							//printf(pFile, "MAIN CPU : %.4f \t", per);
+							strcpy(cpu_usage, "echo \"Main CPU : "); 
+							strcat(cpu_usage, percent); strcat(cpu_usage, "\"");
+							system(cpu_usage);
+							//fprintf(pFile,"MAIN CPU : %.4f \n", per);
+							//printf("MAIN CPU : %.4f \t", per);
 						}
 						else {
-							fprintf(pFile, "CPU %d : %.4f \n",(j-1)/2,per);
-							//printf(pFile, "CPU %d : %.4f \t",(j-1)/2,per);
+							sprintf(core_n, "%d : ", (j-1)/2-1);
+							strcpy(cpu_usage, "echo \"CPU "); strcat(cpu_usage, core_n);
+							strcat(cpu_usage, percent); strcat(cpu_usage, "\"");
+							system(cpu_usage);
+							//fprintf(pFile, "CPU %d : %.4f \n",(j-1)/2,per);
+							//printf("CPU %d : %.4f \t",(j-1)/2,per);
 						}
 					}
 				}
-				fprintf(pFile,"\n");
+				//fprintf(pFile,"\n");
 				//printf("\n");
 				prev = cur;
 			//}
 
 		//}
 		//else if (flag == 2) {
-			char core_n[3];
+				
 			//while (1) {
 				//sleep(2);
 				// core per iteration
 				int i;
-				for (i=0; i<cores; i++){
-					char * exec = malloc(sizeof(char)*200); char core_s[20];
+				for (i=0; i<cores-1; i++){
+					char * exec = malloc(sizeof(char)*200); char core_s[30] = "echo \"Threads per Core ";
 					sprintf(core_n, "%d", i);
-					strcpy(core_s, core_n);
-					system("echo ${core_n}")
+					strcat(core_s, core_n);
+					strcat(core_s, " : \"");
+					system(core_s);
 					strcpy(exec, "ps -eT -o pid,tid,psr,stat,cmd | awk '{print $3, $4}' | grep -E \'S\<|R\' | grep -c ");
 					strcat(exec,core_n);
 					//printf("command : %s\n", exec);
