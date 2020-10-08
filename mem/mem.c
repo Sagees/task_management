@@ -112,7 +112,7 @@ size_t getCurrentRSS( )
         fclose( fp );
         return (size_t)0L;      /* Can't read? */
     }
-    
+
     fclose( fp );
     return (size_t)rss * (size_t)sysconf( _SC_PAGESIZE);
 
@@ -126,8 +126,8 @@ static void cur_time(void) {
    /* represent current time */
    time_t t = time(NULL);
    struct tm tm = *localtime(&t);
-   printf("%d-%d-%d %d:%d:%d\n",
-      tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday,
+   printf("%d:%d:%d\n",
+      //tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday,
       tm.tm_hour, tm.tm_min, tm.tm_sec);
 }
 
