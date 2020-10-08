@@ -82,12 +82,12 @@ int main(int argc, char *argv[]) {
 		//printf("Press following number what to represent\n1. CPU USAGE / core\n2. THREADS / core\n");
 		//printf("----------------------------------------------\n\ninput : ");
 		//scanf("%d",&flag);
-		printf("\n");
+		//printf("\n");
 		//if (flag == 1) {
 			int cnt = 60; int j;
 			float diff_i, diff_t, per; float * prev;
 
-			//FILE *pFile = fopen("cpulog.txt", "w");
+			FILE *pFile = fopen("cpu_core_log", "w");
 			if (cnt >0) prev = cpu_usage_per();
 			while (--cnt) {
 				usleep(500000);
@@ -103,20 +103,20 @@ int main(int argc, char *argv[]) {
 					else {/* print cpu usage per core */
 						if (j/2 == 0)
 						{
-							//fprintf(pFile,"MAIN CPU : %.4f \n", per);
-							printf("MAIN CPU : %.4f \t", per);
+							fprintf(pFile,"MAIN CPU : %.4f \n", per);
+							//printf(pFile, "MAIN CPU : %.4f \t", per);
 						}
 						else {
-							//fprintf(pFile, "CPU %d : %.4f \n",(j-1)/2,per);
-							printf("CPU %d : %.4f \t",(j-1)/2,per);
+							fprintf(pFile, "CPU %d : %.4f \n",(j-1)/2,per);
+							//printf(pFile, "CPU %d : %.4f \t",(j-1)/2,per);
 						}
 					}
 				}
-				//fprintf(pFile,"\n");
-				printf("\n");
+				fprintf(pFile,"\n");
+				//printf("\n");
 				prev = cur;
 			//}
-			//fclose(pFile);
+
 		//}
 		//else if (flag == 2) {
 			char core_n[3];
@@ -145,6 +145,7 @@ int main(int argc, char *argv[]) {
 			printf("\n\n");
 		//}
 	}
+				fclose(pFile);
 	return 0;
 }
 }
