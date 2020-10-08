@@ -16,8 +16,8 @@ static void cur_time(void) {
 	/* represent current time */
 	time_t t = time(NULL);
 	struct tm tm = *localtime(&t);
-	printf("%d-%d-%d %d:%d:%d\n",
- 		tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday,
+	printf("%d:%d:%d\n",
+ 		//tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday,
  		tm.tm_hour, tm.tm_min, tm.tm_sec);
 }
 
@@ -128,7 +128,7 @@ int main(int argc, char *argv[]) {
 				for (i=0; i<cores; i++){
 					char * exec = malloc(sizeof(char)*200);
 					sprintf(core_n, "%d", i);
-					strcpy(exec, "ps -eT -o pid,spid,psr,stat,cmd | awk '{print $3, $4}' | grep -E \'S\<|R\' | grep -c ");
+					strcpy(exec, "ps -eT -o pid,tid,psr,stat,cmd | awk '{print $3, $4}' | grep -E \'S\<|R\' | grep -c ");
 					strcat(exec,core_n);
 					//printf("command : %s\n", exec);
 					system(exec);
