@@ -79,13 +79,12 @@ int main(int argc, char *argv[]) {
 		do not need any input  */
 	else { // cpu usage per core, thread per core
 		int flag = 0;
-		printf("----------------------------------------------\n");
 		//printf("Press following number what to represent\n1. CPU USAGE / core\n2. THREADS / core\n");
 		//printf("----------------------------------------------\n\ninput : ");
 		//scanf("%d",&flag);
 		printf("\n");
 		//if (flag == 1) {
-			int cnt = 20; int j;
+			int cnt = 60; int j;
 			float diff_i, diff_t, per; float * prev;
 
 			//FILE *pFile = fopen("cpulog.txt", "w");

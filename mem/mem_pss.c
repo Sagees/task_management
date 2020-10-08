@@ -13,7 +13,7 @@ static void cur_time(void) {
 }
 
 int main() {
-	int cnt = 30;
+	int cnt = 60;
 	while (cnt--) {
 		usleep(50000);
 		cur_time();
