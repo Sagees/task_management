@@ -123,9 +123,23 @@ int main(int argc, char *argv[]) {
 			while (1) {
 				usleep(500000);
 				// core per iteration
+				/*int i, core_num;
+				for (i=0; i<cores; i++){
+					core_num = i;
+					char * exec = malloc(sizeof(char)*10);
+					strcpy()
+					itoa(i,exec,10);
+
+				}
+				strcpy(exec, "ps -eL -o user,pid,lwp,nlwp,stat,cmd | grep -E -w \"^[[:space:][:alpha:]]+[[:space:]]+");
+				strcat(exec, pid);*/
 				//system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
-				system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E -c \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
+				system("CORE=0; ps -eT -o pid,tid,psr,stat,cmd | awk '{print $3, $4}' | grep -E -c \"(^0[[:space:]]S\<) | (^0[[:space:]]R)\"");
+					//grep -E -c \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}+S+\"");
+				//free(exec);
 				printf("\n");
+				
+
 			}
 		}
 	}
