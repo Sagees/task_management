@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <stdio.h>
+#include <unistd.h>
 
 using namespace std;
 
@@ -11,7 +11,7 @@ int main(){
     buffer >> tSize >> resident >> share;
     buffer.close();
 
-    long page_size_kb = sysconf(_SC_PAGESIZE) / 1024; // in case x86-64 is configured to use 2MB pages
+    long page_size_kb = sysconf(_SC_PAGESIZE) / (1024); // in case x86-64 is configured to use 2MB pages
     double rss = resident * page_size_kb;
     cout << "RSS - " << rss << " kB\n";
 

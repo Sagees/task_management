@@ -80,11 +80,11 @@ int main(int argc, char *argv[]) {
 	else { // cpu usage per core, thread per core
 		int flag = 0;
 		printf("----------------------------------------------\n");
-		printf("Press following number what to represent\n1. CPU USAGE / core\n2. THREADS / core\n");
-		printf("----------------------------------------------\n\ninput : ");
-		scanf("%d",&flag);
+		//printf("Press following number what to represent\n1. CPU USAGE / core\n2. THREADS / core\n");
+		//printf("----------------------------------------------\n\ninput : ");
+		//scanf("%d",&flag);
 		printf("\n");
-		if (flag == 1) {
+		//if (flag == 1) {
 			int cnt = 20; int j;
 			float diff_i, diff_t, per; float * prev;
 
@@ -114,34 +114,38 @@ int main(int argc, char *argv[]) {
 					}
 				}
 				//fprintf(pFile,"\n");
-				printf("\n\n");
+				printf("\n");
 				prev = cur;
-			}
+			//}
 			//fclose(pFile);
-		}
-		else if (flag == 2) {
-			while (1) {
-				usleep(500000);
+		//}
+		//else if (flag == 2) {
+			char core_n[3];
+			//while (1) {
+				//sleep(2);
 				// core per iteration
-				/*int i, core_num;
+				int i;
 				for (i=0; i<cores; i++){
-					core_num = i;
-					char * exec = malloc(sizeof(char)*10);
-					strcpy()
-					itoa(i,exec,10);
+					char * exec = malloc(sizeof(char)*200);
+					sprintf(core_n, "%d", i);
+					strcpy(exec, "ps -eT -o pid,spid,psr,stat,cmd | awk '{print $3, $4}' | grep -E \'S\<|R\' | grep -c ");
+					strcat(exec,core_n);
+					//printf("command : %s\n", exec);
+					system(exec);
+					free(exec);
 
-				}
-				strcpy(exec, "ps -eL -o user,pid,lwp,nlwp,stat,cmd | grep -E -w \"^[[:space:][:alpha:]]+[[:space:]]+");
-				strcat(exec, pid);*/
+				/*
 				//system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
 				system("CORE=0; ps -eT -o pid,tid,psr,stat,cmd | awk '{print $3, $4}' | grep -E -c \"(^0[[:space:]]S\<) | (^0[[:space:]]R)\"");
 					//grep -E -c \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}+S+\"");
-				//free(exec);
-				printf("\n");
+				
+				printf("\n");*/
 				
 
 			}
-		}
+			printf("\n\n");
+		//}
 	}
 	return 0;
+}
 }
