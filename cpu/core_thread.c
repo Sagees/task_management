@@ -125,8 +125,10 @@ int main(int argc, char *argv[]) {
 				// core per iteration
 				int i;
 				for (i=0; i<cores; i++){
-					char * exec = malloc(sizeof(char)*200);
+					char * exec = malloc(sizeof(char)*200); char core_s[20];
 					sprintf(core_n, "%d", i);
+					strcpy(core_s, core_n);
+					system("echo ${core_n}")
 					strcpy(exec, "ps -eT -o pid,tid,psr,stat,cmd | awk '{print $3, $4}' | grep -E \'S\<|R\' | grep -c ");
 					strcat(exec,core_n);
 					//printf("command : %s\n", exec);

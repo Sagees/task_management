@@ -16,7 +16,7 @@ int main() {
 	int cnt = 60;
 	while (cnt--) {
 		usleep(50000);
-		cur_time();
+		//cur_time();
 		system("procrank | grep TOTAL | awk '{print ($1/1024)}'");
 		printf("\n");
 	}
