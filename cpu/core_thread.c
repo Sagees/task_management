@@ -140,8 +140,10 @@ int main(int argc, char *argv[]) {
 					strcat(core_s, core_n);
 					strcat(core_s, " : \"");
 					system(core_s);
+					//strcpy(exec, "ps -eT -o pid,tid,psr,stat,cmd | awk '{print $3, $4, $5}' | grep -E \'S\<|R\' | grep -E \'^"); // thread name - 1
 					strcpy(exec, "ps -eT -o pid,tid,psr,stat,cmd | awk '{print $3, $4}' | grep -E \'S\<|R\' | grep -c ");
 					strcat(exec,core_n);
+					//strcat(exec, "\' | awk '{print $3}'"); // thread name - 2
 					//printf("command : %s\n", exec);
 					system(exec);
 					free(exec);
