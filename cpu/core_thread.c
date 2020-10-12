@@ -93,7 +93,7 @@ int main(int argc, char *argv[]) {
 			int cnt = 60; int j;
 			float diff_i, diff_t, per; float * prev;
 
-			FILE *pFile = fopen("cpu_core_log", "w");
+			//FILE *pFile = fopen("cpu_core_log", "w");
 			if (cnt >0) prev = cpu_usage_per();
 			while (--cnt) {
 				usleep(500000);
@@ -154,6 +154,8 @@ int main(int argc, char *argv[]) {
 					system(exec);
 					free(exec);
 
+
+
 				/*
 				//system("CORE=0; ps -eT -o pid,spid,psr,stat,cmd | grep -E \"^[[:space:][:digit:][:space:][:digit:]]+[[:space:]]+${CORE}\"");
 				system("CORE=0; ps -eT -o pid,tid,psr,stat,cmd | awk '{print $3, $4}' | grep -E -c \"(^0[[:space:]]S\<) | (^0[[:space:]]R)\"");
@@ -163,10 +165,10 @@ int main(int argc, char *argv[]) {
 				
 
 			}
-			printf("\n\n");
+			system("procrank | grep TOTAL | awk '{print ($1/1024)}'");
 		//}
 	}
-				fclose(pFile);
+				//fclose(pFile);
 	return 0;
 }
 }
