@@ -1,0 +1,1298 @@
+17:32:33
+
+Main CPU : 44.4444
+CPU 0 : 15.2174
+CPU 1 : 10.4167
+CPU 2 : 46.8085
+CPU 3 : 64.5833
+CPU 4 : 61.2245
+CPU 5 : 65.3061
+Threads per Core 0 : 
+38
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+30
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+52
+Threads per Core 5 : 
+36
+1418.42
+17:32:37
+
+Main CPU : 40.3502
+CPU 0 : 18.0401
+CPU 1 : 18.1208
+CPU 2 : 85.3007
+CPU 3 : 50.6356
+CPU 4 : 29.4248
+CPU 5 : 40.1691
+Threads per Core 0 : 
+36
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+27
+Threads per Core 3 : 
+51
+Threads per Core 4 : 
+50
+Threads per Core 5 : 
+44
+1418.14
+17:32:41
+
+Main CPU : 40.6213
+CPU 0 : 17.1429
+CPU 1 : 8.3135
+CPU 2 : 61.9512
+CPU 3 : 44.1527
+CPU 4 : 32.7751
+CPU 5 : 80.0000
+Threads per Core 0 : 
+35
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+53
+Threads per Core 4 : 
+45
+Threads per Core 5 : 
+53
+1440.69
+17:32:46
+
+Main CPU : 42.2719
+CPU 0 : 20.9932
+CPU 1 : 11.5741
+CPU 2 : 60.7623
+CPU 3 : 41.3187
+CPU 4 : 47.1215
+CPU 5 : 70.7483
+Threads per Core 0 : 
+40
+Threads per Core 1 : 
+25
+Threads per Core 2 : 
+39
+Threads per Core 3 : 
+48
+Threads per Core 4 : 
+47
+Threads per Core 5 : 
+43
+1442.68
+17:32:50
+
+Main CPU : 37.6094
+CPU 0 : 22.4771
+CPU 1 : 12.6437
+CPU 2 : 44.9541
+CPU 3 : 71.0648
+CPU 4 : 38.0410
+CPU 5 : 37.1938
+Threads per Core 0 : 
+36
+Threads per Core 1 : 
+25
+Threads per Core 2 : 
+39
+Threads per Core 3 : 
+45
+Threads per Core 4 : 
+57
+Threads per Core 5 : 
+41
+1443.79
+17:32:54
+
+Main CPU : 42.0973
+CPU 0 : 17.4014
+CPU 1 : 19.2575
+CPU 2 : 55.9091
+CPU 3 : 49.8876
+CPU 4 : 33.7838
+CPU 5 : 75.0000
+Threads per Core 0 : 
+33
+Threads per Core 1 : 
+24
+Threads per Core 2 : 
+41
+Threads per Core 3 : 
+57
+Threads per Core 4 : 
+47
+Threads per Core 5 : 
+36
+1457.65
+17:32:59
+
+Main CPU : 42.7876
+CPU 0 : 19.9085
+CPU 1 : 17.5799
+CPU 2 : 81.9005
+CPU 3 : 49.6774
+CPU 4 : 42.6339
+CPU 5 : 44.3439
+Threads per Core 0 : 
+32
+Threads per Core 1 : 
+30
+Threads per Core 2 : 
+32
+Threads per Core 3 : 
+51
+Threads per Core 4 : 
+50
+Threads per Core 5 : 
+45
+1475.95
+17:33:3
+
+Main CPU : 46.3921
+CPU 0 : 29.3598
+CPU 1 : 17.7778
+CPU 2 : 58.3878
+CPU 3 : 49.3450
+CPU 4 : 52.2484
+CPU 5 : 70.3297
+Threads per Core 0 : 
+35
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+35
+Threads per Core 3 : 
+55
+Threads per Core 4 : 
+53
+Threads per Core 5 : 
+46
+1480.26
+17:33:8
+
+Main CPU : 39.4530
+CPU 0 : 17.3121
+CPU 1 : 10.5747
+CPU 2 : 53.3030
+CPU 3 : 32.1586
+CPU 4 : 74.2664
+CPU 5 : 48.5900
+Threads per Core 0 : 
+32
+Threads per Core 1 : 
+25
+Threads per Core 2 : 
+35
+Threads per Core 3 : 
+50
+Threads per Core 4 : 
+46
+Threads per Core 5 : 
+50
+1491.22
+17:33:12
+
+Main CPU : 43.5072
+CPU 0 : 23.0769
+CPU 1 : 12.5000
+CPU 2 : 85.8108
+CPU 3 : 53.8631
+CPU 4 : 44.8352
+CPU 5 : 40.5702
+Threads per Core 0 : 
+35
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+35
+Threads per Core 3 : 
+53
+Threads per Core 4 : 
+57
+Threads per Core 5 : 
+42
+1523.71
+17:33:17
+
+Main CPU : 52.0343
+CPU 0 : 29.4372
+CPU 1 : 25.9657
+CPU 2 : 82.3144
+CPU 3 : 61.6525
+CPU 4 : 53.7155
+CPU 5 : 58.9852
+Threads per Core 0 : 
+36
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+35
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+45
+1555.27
+17:33:21
+
+Main CPU : 34.6762
+CPU 0 : 15.3499
+CPU 1 : 9.2760
+CPU 2 : 76.1364
+CPU 3 : 48.7585
+CPU 4 : 32.3661
+CPU 5 : 26.4706
+Threads per Core 0 : 
+32
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+49
+Threads per Core 4 : 
+57
+Threads per Core 5 : 
+42
+1585.16
+17:33:25
+
+Main CPU : 35.1743
+CPU 0 : 14.1860
+CPU 1 : 7.2430
+CPU 2 : 47.9319
+CPU 3 : 38.1395
+CPU 4 : 29.9766
+CPU 5 : 74.5327
+Threads per Core 0 : 
+33
+Threads per Core 1 : 
+25
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+52
+Threads per Core 5 : 
+44
+1618.24
+17:33:30
+
+Main CPU : 36.0970
+CPU 0 : 13.6150
+CPU 1 : 8.1967
+CPU 2 : 45.1306
+CPU 3 : 72.6415
+CPU 4 : 38.6946
+CPU 5 : 38.3721
+Threads per Core 0 : 
+41
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+47
+Threads per Core 4 : 
+54
+Threads per Core 5 : 
+42
+1616.5
+17:33:34
+
+Main CPU : 32.1844
+CPU 0 : 13.8568
+CPU 1 : 7.6744
+CPU 2 : 51.7483
+CPU 3 : 70.5336
+CPU 4 : 19.9074
+CPU 5 : 29.4118
+Threads per Core 0 : 
+37
+Threads per Core 1 : 
+25
+Threads per Core 2 : 
+33
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+54
+Threads per Core 5 : 
+37
+1618.25
+17:33:38
+
+Main CPU : 44.2511
+CPU 0 : 27.0396
+CPU 1 : 18.3908
+CPU 2 : 62.9214
+CPU 3 : 60.7223
+CPU 4 : 54.7511
+CPU 5 : 41.0200
+Threads per Core 0 : 
+30
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+38
+Threads per Core 3 : 
+50
+Threads per Core 4 : 
+47
+Threads per Core 5 : 
+48
+1625.14
+17:33:43
+
+Main CPU : 33.2412
+CPU 0 : 11.5294
+CPU 1 : 5.2009
+CPU 2 : 51.0588
+CPU 3 : 45.9330
+CPU 4 : 19.5238
+CPU 5 : 66.1939
+Threads per Core 0 : 
+31
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+37
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+48
+1588.6
+17:33:47
+
+Main CPU : 30.8294
+CPU 0 : 13.2867
+CPU 1 : 4.4393
+CPU 2 : 48.6998
+CPU 3 : 27.3810
+CPU 4 : 63.3803
+CPU 5 : 28.0374
+Threads per Core 0 : 
+29
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+37
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+46
+Threads per Core 5 : 
+52
+1587.27
+17:33:51
+
+Main CPU : 34.0616
+CPU 0 : 20.4706
+CPU 1 : 4.9528
+CPU 2 : 47.6636
+CPU 3 : 35.4839
+CPU 4 : 69.9764
+CPU 5 : 25.9861
+Threads per Core 0 : 
+30
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+34
+Threads per Core 3 : 
+62
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+43
+1588.95
+17:33:56
+
+Main CPU : 41.4568
+CPU 0 : 21.9048
+CPU 1 : 11.4943
+CPU 2 : 64.2202
+CPU 3 : 41.9664
+CPU 4 : 75.1724
+CPU 5 : 33.1808
+Threads per Core 0 : 
+31
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+35
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+47
+Threads per Core 5 : 
+49
+1587.1
+17:34:0
+
+Main CPU : 31.6162
+CPU 0 : 12.2066
+CPU 1 : 4.9180
+CPU 2 : 74.5283
+CPU 3 : 47.7327
+CPU 4 : 28.2660
+CPU 5 : 22.7700
+Threads per Core 0 : 
+28
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+33
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+55
+Threads per Core 5 : 
+45
+1582.97
+17:34:4
+
+Main CPU : 34.7501
+CPU 0 : 16.0000
+CPU 1 : 7.4592
+CPU 2 : 51.7986
+CPU 3 : 40.0000
+CPU 4 : 66.3529
+CPU 5 : 27.3159
+Threads per Core 0 : 
+28
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+38
+Threads per Core 3 : 
+49
+Threads per Core 4 : 
+57
+Threads per Core 5 : 
+44
+1614.18
+17:34:8
+
+Main CPU : 38.9077
+CPU 0 : 14.5786
+CPU 1 : 6.8182
+CPU 2 : 67.2811
+CPU 3 : 52.8217
+CPU 4 : 49.1071
+CPU 5 : 42.5721
+Threads per Core 0 : 
+27
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+35
+Threads per Core 3 : 
+50
+Threads per Core 4 : 
+55
+Threads per Core 5 : 
+51
+1600.52
+17:34:13
+
+Main CPU : 47.7799
+CPU 0 : 25.4630
+CPU 1 : 15.0562
+CPU 2 : 61.4865
+CPU 3 : 45.1467
+CPU 4 : 80.0905
+CPU 5 : 59.6737
+Threads per Core 0 : 
+31
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+34
+Threads per Core 3 : 
+48
+Threads per Core 4 : 
+51
+Threads per Core 5 : 
+46
+1551.56
+17:34:17
+
+Main CPU : 33.0865
+CPU 0 : 16.5888
+CPU 1 : 6.0465
+CPU 2 : 53.7209
+CPU 3 : 70.9977
+CPU 4 : 25.8294
+CPU 5 : 24.6445
+Threads per Core 0 : 
+38
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+32
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+43
+1565.5
+17:34:22
+
+Main CPU : 44.1505
+CPU 0 : 27.8802
+CPU 1 : 13.5440
+CPU 2 : 54.5254
+CPU 3 : 53.9150
+CPU 4 : 70.5495
+CPU 5 : 43.4211
+Threads per Core 0 : 
+27
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+37
+Threads per Core 3 : 
+51
+Threads per Core 4 : 
+50
+Threads per Core 5 : 
+42
+1493.12
+17:34:26
+
+Main CPU : 37.9742
+CPU 0 : 23.1678
+CPU 1 : 10.3211
+CPU 2 : 39.7647
+CPU 3 : 39.5248
+CPU 4 : 69.5455
+CPU 5 : 44.1704
+Threads per Core 0 : 
+30
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+27
+Threads per Core 3 : 
+59
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+45
+1493.29
+17:34:30
+
+Main CPU : 34.2250
+CPU 0 : 27.2727
+CPU 1 : 8.7054
+CPU 2 : 32.0713
+CPU 3 : 75.7709
+CPU 4 : 31.4346
+CPU 5 : 29.8925
+Threads per Core 0 : 
+32
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+34
+Threads per Core 3 : 
+53
+Threads per Core 4 : 
+53
+Threads per Core 5 : 
+50
+1508.95
+17:34:35
+
+Main CPU : 25.4016
+CPU 0 : 12.0181
+CPU 1 : 7.0615
+CPU 2 : 79.0909
+CPU 3 : 13.0926
+CPU 4 : 19.2053
+CPU 5 : 22.4401
+Threads per Core 0 : 
+31
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+26
+Threads per Core 3 : 
+61
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+54
+1460.19
+17:34:39
+
+Main CPU : 39.3792
+CPU 0 : 19.7248
+CPU 1 : 11.4416
+CPU 2 : 36.1607
+CPU 3 : 74.1648
+CPU 4 : 48.8069
+CPU 5 : 44.3946
+Threads per Core 0 : 
+32
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+50
+1467.98
+17:34:44
+
+Main CPU : 36.9293
+CPU 0 : 17.6471
+CPU 1 : 6.3181
+CPU 2 : 45.0766
+CPU 3 : 30.4444
+CPU 4 : 44.9782
+CPU 5 : 75.0538
+Threads per Core 0 : 
+29
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+35
+Threads per Core 3 : 
+56
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+41
+1472.68
+17:34:49
+
+Main CPU : 38.2621
+CPU 0 : 36.2288
+CPU 1 : 5.6367
+CPU 2 : 66.2447
+CPU 3 : 30.4904
+CPU 4 : 49.6868
+CPU 5 : 41.6149
+Threads per Core 0 : 
+27
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+33
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+50
+Threads per Core 5 : 
+48
+1431.18
+17:34:53
+
+Main CPU : 38.9719
+CPU 0 : 29.6460
+CPU 1 : 7.0815
+CPU 2 : 40.8297
+CPU 3 : 46.9027
+CPU 4 : 37.5824
+CPU 5 : 72.0524
+Threads per Core 0 : 
+30
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+30
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+48
+Threads per Core 5 : 
+51
+1444.3
+17:34:58
+
+Main CPU : 37.7183
+CPU 0 : 22.5513
+CPU 1 : 13.3333
+CPU 2 : 37.8378
+CPU 3 : 35.4120
+CPU 4 : 39.0351
+CPU 5 : 77.0419
+Threads per Core 0 : 
+34
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+36
+Threads per Core 3 : 
+48
+Threads per Core 4 : 
+50
+Threads per Core 5 : 
+41
+1467.36
+17:35:2
+
+Main CPU : 19.9769
+CPU 0 : 12.0092
+CPU 1 : 2.5346
+CPU 2 : 65.2778
+CPU 3 : 10.6481
+CPU 4 : 9.0069
+CPU 5 : 20.7944
+Threads per Core 0 : 
+37
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+29
+Threads per Core 3 : 
+55
+Threads per Core 4 : 
+53
+Threads per Core 5 : 
+43
+1479.58
+17:35:7
+
+Main CPU : 20.1684
+CPU 0 : 11.8605
+CPU 1 : 7.0295
+CPU 2 : 74.3119
+CPU 3 : 6.8182
+CPU 4 : 5.3738
+CPU 5 : 15.9453
+Threads per Core 0 : 
+37
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+27
+Threads per Core 3 : 
+61
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+50
+1494.23
+17:35:11
+
+Main CPU : 19.9691
+CPU 0 : 13.5198
+CPU 1 : 3.0162
+CPU 2 : 20.4176
+CPU 3 : 12.6697
+CPU 4 : 59.7674
+CPU 5 : 10.4895
+Threads per Core 0 : 
+34
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+29
+Threads per Core 3 : 
+58
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+44
+1493.17
+17:35:15
+
+Main CPU : 20.6063
+CPU 0 : 12.0092
+CPU 1 : 3.9535
+CPU 2 : 20.7373
+CPU 3 : 56.6820
+CPU 4 : 10.9840
+CPU 5 : 18.6636
+Threads per Core 0 : 
+41
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+33
+Threads per Core 3 : 
+55
+Threads per Core 4 : 
+51
+Threads per Core 5 : 
+43
+1494.83
+17:35:20
+
+Main CPU : 19.4412
+CPU 0 : 10.7728
+CPU 1 : 4.6620
+CPU 2 : 19.1589
+CPU 3 : 9.2379
+CPU 4 : 60.6061
+CPU 5 : 12.5581
+Threads per Core 0 : 
+35
+Threads per Core 1 : 
+30
+Threads per Core 2 : 
+32
+Threads per Core 3 : 
+51
+Threads per Core 4 : 
+49
+Threads per Core 5 : 
+46
+1494.51
+17:35:24
+
+Main CPU : 21.1348
+CPU 0 : 12.9032
+CPU 1 : 3.8813
+CPU 2 : 68.8073
+CPU 3 : 14.0909
+CPU 4 : 14.2857
+CPU 5 : 13.0137
+Threads per Core 0 : 
+39
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+28
+Threads per Core 3 : 
+53
+Threads per Core 4 : 
+55
+Threads per Core 5 : 
+40
+1496.02
+17:35:28
+
+Main CPU : 21.6424
+CPU 0 : 13.0233
+CPU 1 : 3.8991
+CPU 2 : 25.3456
+CPU 3 : 11.8451
+CPU 4 : 10.5023
+CPU 5 : 66.0508
+Threads per Core 0 : 
+33
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+27
+Threads per Core 3 : 
+48
+Threads per Core 4 : 
+55
+Threads per Core 5 : 
+47
+1495.72
+17:35:33
+
+Main CPU : 19.2470
+CPU 0 : 13.7529
+CPU 1 : 3.9171
+CPU 2 : 19.1244
+CPU 3 : 8.2949
+CPU 4 : 12.7854
+CPU 5 : 57.5406
+Threads per Core 0 : 
+34
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+35
+Threads per Core 3 : 
+51
+Threads per Core 4 : 
+60
+Threads per Core 5 : 
+44
+1496.38
+17:35:37
+
+Main CPU : 19.5652
+CPU 0 : 11.7371
+CPU 1 : 2.3148
+CPU 2 : 17.1296
+CPU 3 : 16.3170
+CPU 4 : 11.3689
+CPU 5 : 58.7822
+Threads per Core 0 : 
+30
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+28
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+54
+Threads per Core 5 : 
+44
+1495.92
+17:35:41
+
+Main CPU : 19.3897
+CPU 0 : 11.8605
+CPU 1 : 2.3095
+CPU 2 : 67.9814
+CPU 3 : 13.8568
+CPU 4 : 10.2804
+CPU 5 : 10.3448
+Threads per Core 0 : 
+32
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+29
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+53
+Threads per Core 5 : 
+43
+1496.95
+17:35:46
+
+Main CPU : 19.5187
+CPU 0 : 12.0370
+CPU 1 : 5.2752
+CPU 2 : 71.4286
+CPU 3 : 16.5909
+CPU 4 : 3.6697
+CPU 5 : 7.9727
+Threads per Core 0 : 
+36
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+28
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+54
+Threads per Core 5 : 
+42
+1497.18
+17:35:50
+
+Main CPU : 19.6911
+CPU 0 : 12.5581
+CPU 1 : 2.5463
+CPU 2 : 17.0901
+CPU 3 : 11.1888
+CPU 4 : 14.2857
+CPU 5 : 60.2771
+Threads per Core 0 : 
+32
+Threads per Core 1 : 
+25
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+50
+Threads per Core 4 : 
+59
+Threads per Core 5 : 
+45
+1498.46
+17:35:54
+
+Main CPU : 22.4505
+CPU 0 : 7.9070
+CPU 1 : 6.9124
+CPU 2 : 22.9545
+CPU 3 : 23.9374
+CPU 4 : 59.7254
+CPU 5 : 13.3787
+Threads per Core 0 : 
+35
+Threads per Core 1 : 
+30
+Threads per Core 2 : 
+30
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+56
+Threads per Core 5 : 
+51
+1513.19
+17:35:59
+
+Main CPU : 32.6079
+CPU 0 : 18.9845
+CPU 1 : 20.0000
+CPU 2 : 64.9554
+CPU 3 : 38.9831
+CPU 4 : 24.6014
+CPU 5 : 27.5168
+Threads per Core 0 : 
+36
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+28
+Threads per Core 3 : 
+50
+Threads per Core 4 : 
+53
+Threads per Core 5 : 
+42
+1512.05
+17:36:4
+
+Main CPU : 33.2985
+CPU 0 : 19.1810
+CPU 1 : 8.4746
+CPU 2 : 65.3361
+CPU 3 : 31.6348
+CPU 4 : 34.9594
+CPU 5 : 39.3939
+Threads per Core 0 : 
+36
+Threads per Core 1 : 
+34
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+47
+Threads per Core 5 : 
+54
+1430.4
+17:36:8
+
+Main CPU : 28.8989
+CPU 0 : 14.5414
+CPU 1 : 8.7640
+CPU 2 : 77.7283
+CPU 3 : 17.9545
+CPU 4 : 25.9912
+CPU 5 : 27.8037
+Threads per Core 0 : 
+33
+Threads per Core 1 : 
+31
+Threads per Core 2 : 
+26
+Threads per Core 3 : 
+49
+Threads per Core 4 : 
+54
+Threads per Core 5 : 
+49
+1446.31
+17:36:12
+
+Main CPU : 28.3588
+CPU 0 : 11.8182
+CPU 1 : 7.0295
+CPU 2 : 71.3004
+CPU 3 : 21.9178
+CPU 4 : 25.5411
+CPU 5 : 32.2440
+Threads per Core 0 : 
+37
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+28
+Threads per Core 3 : 
+48
+Threads per Core 4 : 
+45
+Threads per Core 5 : 
+46
+1480.08
+17:36:17
+
+Main CPU : 41.0019
+CPU 0 : 26.3982
+CPU 1 : 17.9601
+CPU 2 : 63.2743
+CPU 3 : 47.2727
+CPU 4 : 48.4581
+CPU 5 : 42.3503
+Threads per Core 0 : 
+39
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+37
+Threads per Core 3 : 
+53
+Threads per Core 4 : 
+55
+Threads per Core 5 : 
+44
+1506.95
+17:36:21
+
+Main CPU : 22.4330
+CPU 0 : 11.6331
+CPU 1 : 3.5714
+CPU 2 : 76.0090
+CPU 3 : 13.6161
+CPU 4 : 15.1111
+CPU 5 : 15.1448
+Threads per Core 0 : 
+30
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+36
+Threads per Core 3 : 
+50
+Threads per Core 4 : 
+58
+Threads per Core 5 : 
+43
+1499.76
+17:36:26
+
+Main CPU : 23.0280
+CPU 0 : 15.0901
+CPU 1 : 4.4346
+CPU 2 : 71.8404
+CPU 3 : 13.3929
+CPU 4 : 13.5556
+CPU 5 : 19.3473
+Threads per Core 0 : 
+37
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+34
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+55
+Threads per Core 5 : 
+41
+1501.78
+17:36:30
+
+Main CPU : 17.1396
+CPU 0 : 11.5385
+CPU 1 : 2.4943
+CPU 2 : 23.5294
+CPU 3 : 54.8975
+CPU 4 : 1.5837
+CPU 5 : 9.1116
+Threads per Core 0 : 
+34
+Threads per Core 1 : 
+29
+Threads per Core 2 : 
+33
+Threads per Core 3 : 
+53
+Threads per Core 4 : 
+59
+Threads per Core 5 : 
+43
+1500.33
+17:36:35
+
+Main CPU : 17.2203
+CPU 0 : 8.2192
+CPU 1 : 3.1963
+CPU 2 : 77.2936
+CPU 3 : 5.7471
+CPU 4 : 5.7870
+CPU 5 : 2.9613
+Threads per Core 0 : 
+30
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+33
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+56
+Threads per Core 5 : 
+51
+1505.61
+17:36:39
+
+Main CPU : 17.8056
+CPU 0 : 9.7285
+CPU 1 : 3.4014
+CPU 2 : 68.0365
+CPU 3 : 16.5517
+CPU 4 : 4.3578
+CPU 5 : 5.0000
+Threads per Core 0 : 
+36
+Threads per Core 1 : 
+28
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+53
+Threads per Core 4 : 
+53
+Threads per Core 5 : 
+45
+1500.35
+17:36:43
+
+Main CPU : 16.2711
+CPU 0 : 9.4037
+CPU 1 : 0.9174
+CPU 2 : 67.4312
+CPU 3 : 9.2379
+CPU 4 : 3.8991
+CPU 5 : 6.8650
+Threads per Core 0 : 
+39
+Threads per Core 1 : 
+26
+Threads per Core 2 : 
+31
+Threads per Core 3 : 
+54
+Threads per Core 4 : 
+52
+Threads per Core 5 : 
+45
+1506.58
+17:36:48
+
+Main CPU : 17.5084
+CPU 0 : 10.9865
+CPU 1 : 2.4719
+CPU 2 : 67.3423
+CPU 3 : 12.2449
+CPU 4 : 4.2601
+CPU 5 : 7.7778
+Threads per Core 0 : 
+34
+Threads per Core 1 : 
+27
+Threads per Core 2 : 
+33
+Threads per Core 3 : 
+52
+Threads per Core 4 : 
+58
+Threads per Core 5 : 
+48
+1501.64
