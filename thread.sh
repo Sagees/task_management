@@ -1,26 +1,3 @@
-#!/bin/bash
-
-while [ $# != 0 ]; do
-        pids=("${pids[@]}" "$1")
-        shift
-done
-
-if [ -z "${pids[0]}" ]; then
-        echo "Usage: $0"
-        exit 1
-fi
-
-for pid in "${pids[@]}"; do
-        if [ ! -e /proc/$pid ]; then
-                echo "Error: pid $pid doesn't exist"
-                exit 1
-        fi
-done
-
-while [ true ]; do
-        echo -e "\033[H\033[J"
-        for pid in "${pids[@]}"; do
-                ps -p $pid -L -o pid,tid,psr,pcpu,comm=
-        done
-        sleep 1
-done
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c838859b2fa99f31600ceef68f50f38b86715e07e5838a46c1c52eadd34b59c
+size 494

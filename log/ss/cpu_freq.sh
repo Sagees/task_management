@@ -1,9 +1,3 @@
-#!/bin/bash
-
-
-adb connect 192.168.0.12
-#core_num=`adb shell "grep -c processor /proc/cpuinfo"`
-
-#echo $core_num
-
-adb shell "cat find /sys/devices/system/cpu -name cpu -type d"
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d52131ef59aa27b0bb04f844c98d2edc09cd773f11a625f1064528e0bb91c72
+size 175

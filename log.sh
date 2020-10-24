@@ -1,17 +1,3 @@
-#!/bin/bash
-
-for /f "delims=" %%a in ('wmic os get localdatetime ^|find"."') do set
-"dt=%%a"
-
-set "hh=%dt:~8,2%"
-set "min=%dt:~10,2%"
-set "sec=%dt:~12,2%"
-
-set currenttime=%hh%%min%%sec%
-
-adb logcat -c
-
-adb logcat -v threadtime *:v> /data/ss/log/%currenttime%.log
-echo.
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd147df9f4daf7638d0687ceb8da2507c92c2cc3a053dc981cea99e3a14e5d46
+size 276

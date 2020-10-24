@@ -1,11 +1,3 @@
-#!/bin/bash
-
-adb connect 192.168.0.14
-
-#timestamp=$(date '+%Y/%m/%d/ %H:%M:%S')
-
-while [ 1 ]; do
-	echo "$(date '+%Y/%m/%d/ %H:%M:%S')"
-	adb shell cat /proc/net/xt_qtaguid/stats | grep -v "lo" | awk '{print $2, $5, $6, $8}'
-	sleep 2
-done
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbab0308f1ee5c90a3f7c956b1c221186f2e9d190d11301ea71f492217d284f9
+size 236

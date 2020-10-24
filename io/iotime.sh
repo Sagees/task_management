@@ -1,12 +1,3 @@
-#!/bin/sh
-
-adb connect 192.168.0.14
-
-#timestamp=`date +%Y/%m/%d/ %H:%M`
-timestamp=$(date '+%Y/%m/%d/ %H:%M')
-
-while [ 1 ]; do
-	echo "$(date '+%Y/%m/%d/ %H:%M:%S')"
-	adb shell cat /proc/diskstats | grep "mmcblk0" | grep -v "mmcblk0[[:graph:]]" | awk '{print $3, $12, $14}'
-	sleep 2
-done
+version https://git-lfs.github.com/spec/v1
+oid sha256:ebbd42a009cca664330afcd0ee6fa653024048d442df28232e7773cf1778cf9d
+size 285
